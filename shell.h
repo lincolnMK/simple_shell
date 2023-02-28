@@ -1,20 +1,3 @@
-Superstazdare
-/
-simple_shell
-Public
-Code
-Issues
-Pull requests
-Actions
-Projects
-Security
-Insights
-Beta Try the new code view
-simple_shell/shell.h
-@Superstazdare
-Superstazdare task
- 1 contributor
-235 lines (198 sloc)  5.39 KB
 #ifndef SHELL_H
 #define SHELL_H
 
@@ -106,7 +89,7 @@ typedef struct passinfo
 	int env_changed;
 	int status;
 
-	char *cmd_buf; / pointer to cmd ; chain buffer, for memory mangement */
+	char *cmd_buf; /* pointer to cmd ; chain buffer, for memory mangement */
 	int cmd_buf_type; /* CMD_type ||, &&, ; */
 	int readfd;
 	int histcount;
